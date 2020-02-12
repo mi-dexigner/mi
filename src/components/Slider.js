@@ -10,19 +10,39 @@ import {
 } from 'reactstrap';
 import  {Link } from 'react-router-dom';
 import SliderCaption from './SliderCaption';
-import socialMediaImg from '../assets/social-media.png';
+import webDevelopmentImg from '../assets/web-development.png';
+import graphicDesignImg from '../assets/graphic-design.png';
 import mobileDevelopmentImg from '../assets/mobile-development.png';
+import socialMediaImg from '../assets/social-media.png';
 const items = [
   {
-    src: socialMediaImg,
-    heading: 'SOCIAL MEDIA ',
-    subtitle: 'MARKETING',
+    src: webDevelopmentImg,
+    heading: 'web ',
+    subtitle: 'development',
+    caption: '<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p> ',
+    buttonLink:'#',
+    buttonText:'Get Started'
+  },
+  {
+    src: graphicDesignImg,
+    heading: 'Graphic ',
+    subtitle: 'Design',
     caption: '<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p> ',
     buttonLink:'#',
     buttonText:'Get Started'
   },
   {
     src: mobileDevelopmentImg,
+    heading: 'Mobile App ',
+    subtitle: 'Development',
+    caption: '<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p> ',
+    buttonLink:'#',
+    buttonText:'Get Started'
+  },
+  
+  {
+    
+    src: socialMediaImg,
     heading: 'SOCIAL MEDIA ',
     subtitle: 'MARKETING',
     caption: '<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p> ',
