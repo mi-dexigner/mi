@@ -58,6 +58,18 @@ li {
     text-align    : center;
     text-transform: uppercase;
     font-weight   : 900;
+    padding-left  : 10px;
+    padding-right : 10px;
+    transition    : all .4s ease-in;
+    margin-left   : 5px;
+    margin-right: 5px;
+}
+
+.navbar-light .navbar-nav .nav-link:focus,
+.navbar-light .navbar-nav .nav-link:hover {
+    color        : rgba(0, 0, 0, .7);
+    background   : #fff;
+    border-radius: 25px;
 }
 
 .carousel,
@@ -189,7 +201,7 @@ li {
     font-weight    : bold;
     line-height    : 1.316;
     text-align     : center;
-    text-transform: uppercase;
+    text-transform : uppercase;
 
 }
 
@@ -202,46 +214,74 @@ li {
     left            : 0px;
     top             : 0px;
 }
-.content-area{
-    padding-top: 130px;
+
+.content-area {
+    padding-top   : 130px;
     padding-bottom: 130px;
-    text-align: center;
+    text-align    : center;
 }
 
 .content-area h3 {
-    font-size: 35px;
-    font-family: var(--font);
-    color:var(--primary);
+    font-size     : 35px;
+    font-family   : var(--font);
+    color         : var(--primary);
     text-transform: uppercase;
-    line-height: 1.2;
-    text-align: center;
-    font-weight: 900;
-  }
-.content-area h6 {
-    font-size: 20px;
-    font-family: var(--font);
-    color:#5a5a5a;
-    text-align: center;
-    font-weight: 100;
-  }
-  .content-area h6 strong{
-      font-weight: 900;
-  }
+    line-height   : 1.2;
+    text-align    : center;
+    font-weight   : 900;
+}
 
-  /* copyright */
-  .disclaimer{
-      background-color: #000000;
-      padding-top: 30px;
-      padding-bottom: 30px;
-      font-size: 11px;
-      text-align: center;
-      border-top: 1px solid #3e3e3e;
-  }
-  .disclaimer h5{
-      font-size: 12px;
-      text-align: center;
-      text-transform: uppercase;
-  }
+.content-area h6 {
+    font-size  : 20px;
+    font-family: var(--font);
+    color      : #5a5a5a;
+    text-align : center;
+    font-weight: 100;
+}
+
+.content-area h6 strong {
+    font-weight: 900;
+}
+
+.heading {
+    margin-bottom: 90px;
+}
+
+.content-area .single-content {
+    background-color: transparent;
+    border          : none;
+}
+
+.content-area .single-content img {
+    margin-bottom: 40px;
+}
+
+.content-area .single-content .card-text {
+    font-size  : 20px;
+    font-family: var(--font);
+    color      : rgb(95, 95, 95);
+    font-style : italic;
+    line-height: 1.2;
+    text-align : center;
+    font-weight: 900;
+}
+
+/* copyright */
+.disclaimer {
+    background-color: #000000;
+    padding-top     : 30px;
+    padding-bottom  : 30px;
+    font-size       : 11px;
+    text-align      : center;
+    border-top      : 1px solid #3e3e3e;
+}
+
+.disclaimer h5 {
+    font-size     : 12px;
+    text-align    : center;
+    text-transform: uppercase;
+}
+
 /* small tablet styles */
 @media screen and (min-width: 620px) {}
 

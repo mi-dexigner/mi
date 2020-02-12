@@ -4,6 +4,7 @@ import Header from '../components/Header';
 import Slider from '../components/Slider';
 import CallToAction from '../components/CallToAction';
 import ContentArea from '../components/ContentArea';
+import Pricing from '../components/Pricing';
 import Footer from '../components/Footer';
 
 class Main extends Component {
@@ -14,14 +15,14 @@ class Main extends Component {
             <Header/>
             <Slider />
             <CallToAction/>
-           <ContentArea/>
-            {/* <section>Pricing</section>
+            <ContentArea/>
+            <Pricing/>
             <section>Features</section>
             <section>Main package</section>
             <section>Recent Project</section>
             <section>Reason to choose us</section>
             <section>Customer clients</section>
-            <section>Award Reconized</section> */}
+            <section>Award Reconized</section>
             <Footer />
             </>
         )
