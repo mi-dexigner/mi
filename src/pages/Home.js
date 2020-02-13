@@ -17,12 +17,12 @@ class Main extends Component {
             <CallToAction/>
             <ContentArea/>
             <Pricing/>
-            <section>Features</section>
+            {/* <section>Features</section>
             <section>Main package</section>
             <section>Recent Project</section>
             <section>Reason to choose us</section>
             <section>Customer clients</section>
-            <section>Award Reconized</section>
+            <section>Award Reconized</section> */}
             <Footer />
             </>
         )
