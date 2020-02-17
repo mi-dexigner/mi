@@ -6,6 +6,7 @@ import CallToAction from '../components/CallToAction';
 import ContentArea from '../components/ContentArea';
 import Pricing from '../components/Pricing';
 import Footer from '../components/Footer';
+import HomeFeatures from '../components/HomeFeatures';
 
 class Main extends Component {
     render() {
@@ -17,8 +18,8 @@ class Main extends Component {
             <CallToAction/>
             <ContentArea/>
             <Pricing/>
-            {/* <section>Features</section>
-            <section>Main package</section>
+            <HomeFeatures/>
+            {/* <section>Main package</section>
             <section>Recent Project</section>
             <section>Reason to choose us</section>
             <section>Customer clients</section>

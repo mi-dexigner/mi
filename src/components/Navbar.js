@@ -36,9 +36,9 @@ const Navigation = (props) => {
           <Collapse isOpen={isOpen} navbar>
           <div className="topbar">
                   <ul className="list-inline">
-                      <li className="list-inline-item"><Link><img src={requestACustomQuote} alt=""/><span>Request a</span><strong>Custom Quote</strong></Link></li>
-                      <li className="list-inline-item"><Link><img src={startLiveChat} alt=""/><span>Start</span><strong>Live Chat</strong></Link></li>
-                      <li className="list-inline-item"><Link><img src={callTollFree} alt=""/><span>Call Toll Free</span><strong>+92 324 2340 583</strong></Link></li>
+                      <li className="list-inline-item"><Link to="/"><img src={requestACustomQuote} alt=""/><span>Request a</span><strong>Custom Quote</strong></Link></li>
+                      <li className="list-inline-item"><Link to="/"><img src={startLiveChat} alt=""/><span>Start</span><strong>Live Chat</strong></Link></li>
+                      <li className="list-inline-item"><Link to="/"><img src={callTollFree} alt=""/><span>Call Toll Free</span><strong>+92 324 2340 583</strong></Link></li>
                   </ul>
               
             </div>
@@ -55,14 +55,14 @@ const Navigation = (props) => {
                 </DropdownToggle>
                 <DropdownMenu right>
                   <DropdownItem>
-                    Option 1
+                   Logo Design
                   </DropdownItem>
                   <DropdownItem>
-                    Option 2
+                  Website Design
                   </DropdownItem>
                   <DropdownItem divider />
                   <DropdownItem>
-                    Reset
+                  Web Development
                   </DropdownItem>
                 </DropdownMenu>
               </UncontrolledDropdown> 

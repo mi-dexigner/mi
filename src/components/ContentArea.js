@@ -17,7 +17,8 @@ world best features and qualities in affordable price. <strong> Many resons to c
             <div className="row">
                 <div className="col-md-4">
                 <div className="card single-content">
-  <img src={iconsTechnologies} alt="..." />
+  <img src={iconsTechnologies} alt="We Working With The Latest  <br/>
+Technologies...!" />
   <div className="card-body">
     <p className="card-text">We Working With The Latest  <br/>
 Technologies...!</p>
@@ -26,7 +27,8 @@ Technologies...!</p>
   </div>
                 <div className="col-md-4">
                 <div className="card single-content">
-  <img src={iconsCustomer} alt="..." />
+  <img src={iconsCustomer} alt="Best Support We Provide to The<br/>
+Customers...!" />
   <div className="card-body">
     <p className="card-text">Best Support We Provide to The<br/>
 Customers...!</p>
@@ -35,7 +37,8 @@ Customers...!</p>
   </div>
                 <div className="col-md-4">
                 <div className="card single-content">
-  <img src={iconsQuality} alt="..." />
+  <img src={iconsQuality} alt="Fast Delivery With Perfect <br/>
+Quality...!" />
   <div className="card-body">
     <p className="card-text">Fast Delivery With Perfect <br/>
 Quality...!</p>

@@ -251,6 +251,7 @@ li {
 .content-area .single-content {
     background-color: transparent;
     border          : none;
+    display: block;
 }
 
 .content-area .single-content img {
@@ -266,7 +267,9 @@ li {
     text-align : center;
     font-weight: 900;
 }
-
+.pricing{
+    padding-bottom  : 90px;
+}
 .pricing .heading {
     background-color: var(--primary);
     padding-top     : 90px;
@@ -289,7 +292,6 @@ li {
     color      : rgb(255, 255, 255);
     line-height: 1.2;
     text-align : center;
-
 
 }
 
@@ -456,7 +458,91 @@ margin: .2rem 2.25rem;
 .call-discuss span svg {
     margin: 0 9px;
 }
+.features{
+    background-color:#0e0e0e ;
+    padding-top: 130px;
+    padding-bottom: 130px;
+}
+.features .heading h3 {
+    font-size     : 50px;
+    font-family   : var(--font);
+    color         : rgb(255, 255, 255);
+    text-transform: uppercase;
+    line-height   : 1;
+    text-align    : center;
+    font-weight   : 900;
+}
+
+.features .heading h6 {
+    font-size  : 30px;
+    font-family: var(--font);
+    color      : rgb(255, 255, 255);
+    line-height: 1.2;
+    text-align : center;
+
+}
+.features .single-content{
+    padding-top: 45px;
+    padding-bottom: 45px;
+    background: var(--primary);
+    border: none;
+    display: block;
+    text-align: center;
+}
+.features .single-content .card-text {
+    font-size: 24px;
+    font-family: var(--font);
+    color: rgb(255, 255, 255);
+    line-height: 1.2;
+    text-align: center;
+  }
+  
+/* footer */
+.footer{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: #131313;
+}
+
+.footer h5{
+    color: var(--primary);
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 40px;
+    text-transform: uppercase;
+}
+.footer .last img{
+    margin-bottom: 13px;
+}
+.footer .col-md-3.last{
+    position: relative;
+}
+.footer .col-md-3.last:before {
+    content: "";
+    width: 1px;
+    height: 180px;
+    position: absolute;
+    left: -20px;
+    top: 2px;
+    background: rgba(255, 255, 255, .39);
+}
+.footer p a,
+.footer p,
+.footer li a,
+.footer li  {
+    font-size: 16px;
+    font-family: var(--font);
+    color: rgb(164, 163, 165);
+    line-height: 1.667;
+  }
+  .footer .last li  svg {
+    margin: 0 9px;
+}
 /* copyright */
+.copyright{
+    margin-top: 40px;
+}
+
 .disclaimer {
     background-color: #000000;
     padding-top     : 30px;

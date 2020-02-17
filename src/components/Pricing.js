@@ -66,7 +66,7 @@ An Amazing Quality</h3>
     </ListGroup>
     <div className="call-discuss itemmain">
                       <span><FaPhone/> 0203 129 0853</span>
-                      <span><a href="javascript:;" title="Live Chat" target="_self" ><IoIosChatbubbles/>Chat Live</a></span>
+                      <span><a href="#" title="Live Chat" target="_self" ><IoIosChatbubbles/>Chat Live</a></span>
                       </div>
     <Button className="btn-white m-auto">Order Now</Button>
               </Card>
@@ -86,7 +86,7 @@ An Amazing Quality</h3>
     </ListGroup>
     <div className="call-discuss itemmain">
                       <span><FaPhone/> 0203 129 0853</span>
-                      <span><a href="javascript:;" title="Live Chat" target="_self" ><IoIosChatbubbles/>Chat Live</a></span>
+                      <span><a href="#" title="Live Chat" target="_self" ><IoIosChatbubbles/>Chat Live</a></span>
                       </div>
     <Button className="btn-white m-auto">Order Now</Button>
               </Card>
@@ -106,7 +106,7 @@ An Amazing Quality</h3>
     </ListGroup>
     <div className="call-discuss itemmain">
                       <span><FaPhone/> 0203 129 0853</span>
-                      <span><a href="javascript:;" title="Live Chat" target="_self" ><IoIosChatbubbles/>Chat Live</a></span>
+                      <span><a href="#" title="Live Chat" target="_self" ><IoIosChatbubbles/>Chat Live</a></span>
                       </div>
     <Button className="btn-white m-auto">Order Now</Button>
               </Card>
@@ -130,7 +130,7 @@ An Amazing Quality</h3>
     </ListGroup>
     <div className="call-discuss itemmain">
                       <span><FaPhone/> 0203 129 0853</span>
-                      <span><a href="javascript:;" title="Live Chat" target="_self" ><IoIosChatbubbles/>Chat Live</a></span>
+                      <span><a href="#" title="Live Chat" target="_self" ><IoIosChatbubbles/>Chat Live</a></span>
                       </div>
     <Button className="btn-white m-auto">Order Now</Button>
               </Card>
@@ -150,7 +150,7 @@ An Amazing Quality</h3>
     </ListGroup>
     <div className="call-discuss itemmain">
                       <span><FaPhone/> 0203 129 0853</span>
-                      <span><a href="javascript:;" title="Live Chat" target="_self" ><IoIosChatbubbles/>Chat Live</a></span>
+                      <span><a href="#" title="Live Chat" target="_self" ><IoIosChatbubbles/>Chat Live</a></span>
                       </div>
     <Button className="btn-white m-auto">Order Now</Button>
               </Card>
@@ -170,7 +170,7 @@ An Amazing Quality</h3>
     </ListGroup>
     <div className="call-discuss itemmain">
                       <span><FaPhone/> 0203 129 0853</span>
-                      <span><a href="javascript:;" title="Live Chat" target="_self" ><IoIosChatbubbles/>Chat Live</a></span>
+                      <span><a href="#" title="Live Chat" target="_self" ><IoIosChatbubbles/>Chat Live</a></span>
                       </div>
     <Button className="btn-white m-auto">Order Now</Button>
               </Card>
