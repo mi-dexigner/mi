@@ -82,7 +82,7 @@ const Slider = (props) => {
         className="background-gradient"
       >
        <Container className="caption-text">
-         <Row  xs="2">
+         <Row  md="2">
            <Col> 
         <SliderCaption>
         <h2>{item.heading}</h2>
@@ -103,6 +103,7 @@ const Slider = (props) => {
       activeIndex={activeIndex}
       next={next}
       previous={previous}
+      className="main-slider"
     >
       <CarouselIndicators items={items} activeIndex={activeIndex} onClickHandler={goToIndex} />
       {slides}

@@ -55,21 +55,22 @@ export default class Footer extends Component {
                             <div className="col-md-3 last">
                                 <img src={logoWhite} alt="" />
                                 <ul className="list-unstyled">
-                                    <li><a href="https://api.whatsapp.com/send?phone=923242340583&text=Hello,%20please%20share%20details%20of%20your%20Project" target="_blank"><FaWhatsapp /><span>+(92) 3242340583</span></a></li>
-                                    <li><a href="tel:+923242340583"><MdPhone /> <span></span>+(92) 3242340583 </a></li>
-                                    <li><a href="mailto:hello@midexigner.com"><FaEnvelope /><span>hello@midexigner.com</span></a></li>
-                                    <li><a href="skype:midexigner?call"><FaSkype /><span>midexigner</span></a></li>
+                              
+                                    <li>  <a rel="noopener noreferrer" href="https://api.whatsapp.com/send?phone=923242340583&text=Hello,%20please%20share%20details%20of%20your%20Project" target="_blank" ><FaWhatsapp /><span>+(92) 3242340583</span></a></li>
+                                    <li><a rel="noopener noreferrer" href="tel:+923242340583"><MdPhone /> <span></span>+(92) 3242340583 </a></li>
+                                    <li><a rel="noopener noreferrer" href="mailto:hello@midexigner.com"><FaEnvelope /><span>hello@midexigner.com</span></a></li>
+                                    <li><a rel="noopener noreferrer" href="skype:midexigner?call"><FaSkype /><span>midexigner</span></a></li> 
                                 </ul>
                             </div>
                         </div>
                         <div className="row copyright">
                             <div className="col-md-6 text-md-left text-center">
                                 <p>© 2020 MI Dexigner. All rights reserved</p>
-                                <ul className="list-inline">
-                                    <li className="list-inline-item"><a href="https://facebook.com/midexigner" target="_blank"><FaFacebookF /></a></li>
-                                    <li className="list-inline-item"><a href="https://twitter.com/midexigner" target="_blank"><FaTwitter /></a> </li>
-                                    <li className="list-inline-item"><a href="https://www.instagram.com/midexigner" target="_blank"><FaInstagram /></a></li>
-                                </ul>
+                                 <ul className="list-inline">
+                                    <li className="list-inline-item"><a  rel="noopener noreferrer"href="https://facebook.com/midexigner" target="_blank"><FaFacebookF /></a></li>
+                                    <li className="list-inline-item"><a  rel="noopener noreferrer" href="https://twitter.com/midexigner" target="_blank"><FaTwitter /></a> </li>
+                                    <li className="list-inline-item"><a  rel="noopener noreferrer" href="https://www.instagram.com/midexigner" target="_blank"><FaInstagram /></a></li>
+                                </ul> 
                             </div>
                             <div className="col-md-6 text-md-right text-center">
                                 <img src={paymentGateway} alt="" />

@@ -72,12 +72,12 @@ li {
     border-radius: 25px;
 }
 
-.carousel,
-.carousel-inner {
+.main-slider,
+.main-slider .carousel-inner {
     min-height: 800px;
 }
 
-.carousel-caption {
+.main-slider .carousel-caption {
     bottom         : 0px;
     right          : 0px;
     left           : 0px;
@@ -92,7 +92,7 @@ li {
 
 }
 
-.carousel-caption h2 {
+ .main-slider .carousel-caption h2 {
     font-size     : 60px;
     font-family   : var(--font);
     color         : rgb(255, 255, 255);
@@ -102,7 +102,7 @@ li {
     text-transform: uppercase;
 }
 
-.carousel-caption h3 {
+.main-slider .carousel-caption h3 {
     font-size     : 60px;
     font-family   : var(--font);
     color         : rgb(255, 255, 255);
@@ -134,7 +134,7 @@ li {
     text-align      : center;
     font-weight     : 900;
     padding         : .677rem .75rem;
-    border: none;
+    border          : none;
 }
 
 .call-to-action {
@@ -251,7 +251,7 @@ li {
 .content-area .single-content {
     background-color: transparent;
     border          : none;
-    display: block;
+    display         : block;
 }
 
 .content-area .single-content img {
@@ -267,9 +267,11 @@ li {
     text-align : center;
     font-weight: 900;
 }
-.pricing{
-    padding-bottom  : 90px;
+
+.pricing {
+    padding-bottom: 90px;
 }
+
 .pricing .heading {
     background-color: var(--primary);
     padding-top     : 90px;
@@ -335,6 +337,12 @@ li {
     padding-bottom  : 70px;
     padding-left    : 0px;
     padding-right   : 0px;
+    transition      : all 0.3s ease-out;
+    transform       : scale(1.0);
+}
+
+.pricing_table:hover {
+    transform: scale(1.01);
 }
 
 .pricing_table.cyan {
@@ -361,7 +369,7 @@ li {
     color      : rgb(255, 255, 255);
     line-height: 1.2;
     text-align : center;
-    font-weight  : 300;
+    font-weight: 300;
 }
 
 .pricing_table .card-text {
@@ -373,11 +381,11 @@ li {
     color           : rgb(255, 255, 255);
     line-height     : 1.2;
     display         : flex;
-    justify-content: center;
-    align-content: center;
-    align-items: center;
-    font-weight  : 900;
-    margin-top: 20px;
+    justify-content : center;
+    align-content   : center;
+    align-items     : center;
+    font-weight     : 900;
+    margin-top      : 20px;
 }
 
 .pricing_table .card-text .currency {
@@ -386,9 +394,13 @@ li {
     color      : rgb(255, 255, 255);
     line-height: 1.2;
     text-align : center;
-    font-weight  : 900;
+    font-weight: 900;
 }
-.less-price{margin-left: 20px;}
+
+.less-price {
+    margin-left: 20px;
+}
+
 .pricing_table .card-text s {
     font-family: var(--font);
     font-size  : 16px;
@@ -396,7 +408,7 @@ li {
     line-height: 1.2;
     text-align : center;
     display    : block;
-    font-weight  : 900;
+    font-weight: 900;
 
 }
 
@@ -407,62 +419,162 @@ li {
     line-height: 1.2;
     text-align : center;
     display    : block;
-    font-weight  : 900;
+    font-weight: 900;
 
 }
-.pricing_table .list-group{
-    padding:20px 0px;
+
+.pricing_table .list-group {
+    padding   : 20px 0px;
+    height    : 100%;
+    max-height: 200px;
+    min-height: 190px;
+
 }
+
+.rcs-custom-scroll {
+    min-height   : 0;
+    min-width    : 0;
+    margin-bottom: 30px;
+}
+
+.rcs-custom-scroll .rcs-outer-container {
+    overflow: hidden
+}
+
+.rcs-custom-scroll .rcs-outer-container .rcs-positioning {
+    position: relative
+}
+
+.rcs-custom-scroll .rcs-outer-container:hover .rcs-custom-scrollbar {
+    opacity            : 1;
+    transition-duration: 0.2s
+}
+
+.rcs-custom-scroll .rcs-inner-container {
+    overflow-x                : hidden;
+    overflow-y                : scroll;
+    -webkit-overflow-scrolling: touch
+}
+
+.rcs-custom-scroll .rcs-inner-container:after {
+    content         : '';
+    position        : absolute;
+    top             : 0;
+    right           : 0;
+    left            : 0;
+    height          : 0;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0.05) 60%, rgba(0, 0, 0, 0) 100%);
+    pointer-events  : none;
+    transition      : height 0.1s ease-in;
+    will-change     : height
+}
+
+.rcs-custom-scroll .rcs-inner-container.rcs-content-scrolled:after {
+    height    : 5px;
+    transition: height 0.15s ease-out
+}
+
+.rcs-custom-scroll.rcs-scroll-handle-dragged .rcs-inner-container {
+    user-select: none
+}
+
+.rcs-custom-scroll .rcs-custom-scrollbar {
+    position      : absolute;
+    height        : 100%;
+    width         : 6px;
+    right         : 3px;
+    opacity       : 0;
+    z-index       : 1;
+    transition    : opacity 0.4s ease-out;
+    padding       : 6px 0;
+    box-sizing    : border-box;
+    will-change   : opacity;
+    pointer-events: none
+}
+
+.rcs-custom-scroll .rcs-custom-scrollbar.rcs-custom-scrollbar-rtl {
+    right: auto;
+    left : 3px
+}
+
+.rcs-custom-scroll.rcs-scroll-handle-dragged .rcs-custom-scrollbar {
+    opacity: 1
+}
+
+.rcs-custom-scroll .rcs-custom-scroll-handle {
+    position: absolute;
+    width   : 100%;
+    top     : 0
+}
+
+.rcs-custom-scroll .rcs-inner-handle {
+    height          : calc(100% - 12px);
+    margin-top      : 6px;
+    background-color: rgba(78, 183, 245, 0.7);
+    border-radius   : 3px
+}
+
 .pricing_table .list-group-item {
-    background: none;
-    color:#fff;
-    padding: .2rem 0rem;
-border: none;
-border-bottom: 2px solid #0097cf;
-margin: .2rem 2.25rem;
+    background   : none;
+    color        : #fff;
+    padding      : .2rem 0rem;
+    border       : none;
+    border-bottom: 2px solid #0097cf;
+    margin       : .2rem 2.25rem;
 }
 
-.pricing_table .btn-white{
+.pricing_table .list-group-item svg {
+    margin: 0 9px;
+}
+
+.pricing_table .btn-white {
     margin-top: 50px !important;
 }
+
 .call-discuss {
     background-color: rgba(0, 0, 0, .2);
-    padding: 10px 0;
-    text-align: center;
+    padding         : 10px 0;
+    text-align      : center;
 }
+
 .call-discuss span {
-    font-size: 15px;
-    font-family:var(--font);
-    color: rgba(255,255, 255, .72);
-    font-weight: 700;
+    font-size     : 15px;
+    font-family   : var(--font);
+    color         : rgba(255, 255, 255, .72);
+    font-weight   : 700;
     text-transform: uppercase;
-    position: relative;
-    margin: 0 14px;
+    position      : relative;
+    margin        : 0 14px;
 }
+
 .call-discuss span:after {
-    width: 1px;
-    height: 33px;
+    width     : 1px;
+    height    : 33px;
     background: #FFF;
-    content: "";
-    position: absolute;
-    right: -18px;
-    top: -7px;
+    content   : "";
+    position  : absolute;
+    right     : -18px;
+    top       : -7px;
 }
+
 .call-discuss span+span:after {
     display: none
 }
 
 .call-discuss span a {
-    color: rgba(255,255, 255, .72);
+    color: rgba(255, 255, 255, .72);
 }
+
 .call-discuss span svg {
     margin: 0 9px;
 }
-.features{
-    background-color:#0e0e0e ;
-    padding-top: 130px;
-    padding-bottom: 130px;
+
+.features {
+    background-color: #0e0e0e;
+    padding-top     : 130px;
+    padding-bottom  : 130px;
 }
+
 .features .heading h3 {
     font-size     : 50px;
     font-family   : var(--font);
@@ -481,65 +593,138 @@ margin: .2rem 2.25rem;
     text-align : center;
 
 }
-.features .single-content{
-    padding-top: 45px;
+
+.features .single-content {
+    padding-top   : 45px;
     padding-bottom: 45px;
-    background: var(--primary);
-    border: none;
-    display: block;
+    background    : var(--primary);
+    border        : none;
+    display       : block;
+    text-align    : center;
+}
+
+.features .single-content .card-text {
+    font-size  : 24px;
+    font-family: var(--font);
+    color      : rgb(255, 255, 255);
+    line-height: 1.2;
+    text-align : center;
+}
+.customer-clients{
+    padding-top   : 100px;
+    padding-bottom: 100px;
+    background-color: #f8f8f8; 
+}
+.customer-clients .heading h3 {
+    font-size     : 50px;
+    font-family   : var(--font);
+    color         : var(--primary);
+    text-transform: uppercase;
+    line-height   : 1;
+    text-align    : center;
+    font-weight   : 900;
+}
+
+.customer-clients .heading h6 {
+    font-size  : 30px;
+    font-family: var(--font);
+    color      : #5a5a5a;
+    line-height: 1.2;
+    text-align : center;
+    font-weight: 300;
+
+}
+.award-reconized {
+    padding-top   : 100px;
+    padding-bottom: 100px;
+}
+
+.award-reconized .heading h3 {
+    font-size     : 50px;
+    font-family   : var(--font);
+    color         : var(--primary);
+    text-transform: uppercase;
+    line-height   : 1;
+    text-align    : center;
+    font-weight   : 900;
+}
+
+.award-reconized .heading h6 {
+    font-size  : 30px;
+    font-family: var(--font);
+    color      : #5a5a5a;
+    line-height: 1.2;
+    text-align : center;
+    font-weight: 300;
+
+}
+.award-reconized  ul {
+    margin: 0 auto;
     text-align: center;
 }
-.features .single-content .card-text {
-    font-size: 24px;
-    font-family: var(--font);
-    color: rgb(255, 255, 255);
-    line-height: 1.2;
-    text-align: center;
-  }
-  
+.award-reconized ul li {
+    display: inline-block;
+    margin: 0 30px;
+    opacity: .6;
+}
+.award-reconized ul li img {
+    margin: auto;
+    filter: grayscale(100%);
+    transition: .3s;
+}
+.award-reconized ul li img:hover {
+    filter: grayscale(0%);
+}
+
 /* footer */
-.footer{
-    padding-top: 100px;
-    padding-bottom: 100px;
+.footer {
+    padding-top     : 100px;
+    padding-bottom  : 100px;
     background-color: #131313;
 }
 
-.footer h5{
-    color: var(--primary);
-    font-size: 16px;
-    font-weight: 500;
-    margin-bottom: 40px;
+.footer h5 {
+    color         : var(--primary);
+    font-size     : 16px;
+    font-weight   : 500;
+    margin-bottom : 40px;
     text-transform: uppercase;
 }
-.footer .last img{
+
+.footer .last img {
     margin-bottom: 13px;
 }
-.footer .col-md-3.last{
+
+.footer .col-md-3.last {
     position: relative;
 }
+
 .footer .col-md-3.last:before {
-    content: "";
-    width: 1px;
-    height: 180px;
-    position: absolute;
-    left: -20px;
-    top: 2px;
+    content   : "";
+    width     : 1px;
+    height    : 180px;
+    position  : absolute;
+    left      : -20px;
+    top       : 2px;
     background: rgba(255, 255, 255, .39);
 }
+
 .footer p a,
 .footer p,
 .footer li a,
-.footer li  {
-    font-size: 16px;
+.footer li {
+    font-size  : 16px;
     font-family: var(--font);
-    color: rgb(164, 163, 165);
+    color      : rgb(164, 163, 165);
     line-height: 1.667;
-  }
-  .footer .last li  svg {
+}
+
+.footer .last li svg {
     margin: 0 9px;
 }
+
 /* copyright */
-.copyright{
+.copyright {
     margin-top: 40px;
 }
 

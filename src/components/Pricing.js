@@ -1,6 +1,8 @@
 import React,{ useState } from 'react'
 import { TabContent, TabPane, Nav, NavItem, NavLink, Card, Button, CardTitle, CardText, Row, Col, CardSubtitle,ListGroup, ListGroupItem } from 'reactstrap';
+import CustomScroll from 'react-custom-scroll';
 import classnames from 'classnames';
+import { Link } from 'react-router-dom';
 import { FaCheck } from "react-icons/fa";
 import { FaPhone } from "react-icons/fa";
 import { IoIosChatbubbles } from "react-icons/io";
@@ -55,18 +57,21 @@ An Amazing Quality</h3>
               <Card body className='pricing_table cyan'>
                 <CardTitle>BASIC</CardTitle>
                 <CardSubtitle>Limited Time Offer</CardSubtitle>
-                <CardText><span className="currency">$</span>17.99 <span className="less-price"><s>$9.99</s><span className="only">Only</span></span></CardText>
-                <ListGroup>
-      <ListGroupItem><FaCheck/> 2 custom Logo Design Concepts</ListGroupItem>
-      <ListGroupItem><FaCheck/> Dedicated Designer</ListGroupItem>
-      <ListGroupItem><FaCheck/> Revisions</ListGroupItem>
-      <ListGroupItem><FaCheck/> 24-48 Hrs Tumaround Time</ListGroupItem>
-      <ListGroupItem><FaCheck/> Free Colour and Grayscale options</ListGroupItem>
+                <CardText><span className="currency">$</span>17.99 <span className="less-price"><s>$69.00</s><span className="only">Only</span></span></CardText>
+    <CustomScroll heightRelativeToParent="100%">
+    <ListGroup>
+      <ListGroupItem><FaCheck/> 2 Custom Logo Design Concepts</ListGroupItem>
+      <ListGroupItem><FaCheck/> 1 Dedicated Designer</ListGroupItem>
+      <ListGroupItem><FaCheck/> 4 Revisions</ListGroupItem>
+      <ListGroupItem><FaCheck/> 24-48 Hrs Turnaround Time</ListGroupItem>
+      <ListGroupItem><FaCheck/> Free Color and Greyscale options</ListGroupItem>
       <ListGroupItem><FaCheck/> 100% Ownership Rights</ListGroupItem>
+      <ListGroupItem><FaCheck/> Money Back Guarantee</ListGroupItem>
     </ListGroup>
+    </CustomScroll>
     <div className="call-discuss itemmain">
                       <span><FaPhone/> 0203 129 0853</span>
-                      <span><a href="#" title="Live Chat" target="_self" ><IoIosChatbubbles/>Chat Live</a></span>
+                      <span><Link to="#" title="Live Chat" target="_self" ><IoIosChatbubbles/>Chat Live</Link></span>
                       </div>
     <Button className="btn-white m-auto">Order Now</Button>
               </Card>
@@ -75,18 +80,21 @@ An Amazing Quality</h3>
               <Card body  className='pricing_table cyan-dark'>
                 <CardTitle>PROFESSIONAL</CardTitle>
                 <CardSubtitle>Limited Time Offer</CardSubtitle>
-                <CardText><span className="currency">$</span>17.99 <span className="less-price"><s>$9.99</s><span className="only">Only</span></span></CardText>
+                <CardText><span className="currency">$</span>34.99 <span className="less-price"><s>129.00</s><span className="only">Only</span></span></CardText>
+                <CustomScroll heightRelativeToParent="100%">
                 <ListGroup>
-                <ListGroupItem><FaCheck/> 2 custom Logo Design Concepts</ListGroupItem>
-      <ListGroupItem><FaCheck/> Dedicated Designer</ListGroupItem>
-      <ListGroupItem><FaCheck/> Revisions</ListGroupItem>
-      <ListGroupItem><FaCheck/> 24-48 Hrs Tumaround Time</ListGroupItem>
-      <ListGroupItem><FaCheck/> Free Colour and Grayscale options</ListGroupItem>
+      <ListGroupItem><FaCheck/> 6 Custom Logo Design Concepts</ListGroupItem>
+      <ListGroupItem><FaCheck/> 1 Dedicated Designer</ListGroupItem>
+      <ListGroupItem><FaCheck/>8 Revisions</ListGroupItem>
+      <ListGroupItem><FaCheck/> 24-48 Hrs Turnaround Time</ListGroupItem>
+      <ListGroupItem><FaCheck/> Free Color and Greyscale options</ListGroupItem>
       <ListGroupItem><FaCheck/> 100% Ownership Rights</ListGroupItem>
+      <ListGroupItem><FaCheck/> Money Back Guarantee</ListGroupItem>
     </ListGroup>
+    </CustomScroll>
     <div className="call-discuss itemmain">
                       <span><FaPhone/> 0203 129 0853</span>
-                      <span><a href="#" title="Live Chat" target="_self" ><IoIosChatbubbles/>Chat Live</a></span>
+                      <span><Link to="#" title="Live Chat" target="_self" ><IoIosChatbubbles/>Chat Live</Link></span>
                       </div>
     <Button className="btn-white m-auto">Order Now</Button>
               </Card>
@@ -95,18 +103,22 @@ An Amazing Quality</h3>
               <Card body  className='pricing_table cyan'>
                 <CardTitle>ULTRA</CardTitle>
                 <CardSubtitle>Limited Time Offer</CardSubtitle>
-                <CardText><span className="currency">$</span>17.99 <span className="less-price"><s>$9.99</s><span className="only">Only</span></span></CardText>
+                <CardText><span className="currency">$</span>90.99 <span className="less-price"><s>$299.99</s><span className="only">Only</span></span></CardText>
+                <CustomScroll heightRelativeToParent="100%">
                 <ListGroup>
-                <ListGroupItem><FaCheck/> 2 custom Logo Design Concepts</ListGroupItem>
-      <ListGroupItem><FaCheck/> Dedicated Designer</ListGroupItem>
-      <ListGroupItem><FaCheck/> Revisions</ListGroupItem>
-      <ListGroupItem><FaCheck/> 24-48 Hrs Tumaround Time</ListGroupItem>
-      <ListGroupItem><FaCheck/> Free Colour and Grayscale options</ListGroupItem>
+      <ListGroupItem><FaCheck/> 12 Custom Logo Design Concepts</ListGroupItem>
+      <ListGroupItem><FaCheck/> 4 Dedicated Designer</ListGroupItem>
+      <ListGroupItem><FaCheck/> Unlimited Revisions</ListGroupItem>
+      <ListGroupItem><FaCheck/> 48-72 Hrs Turnaround Time</ListGroupItem>
+      <ListGroupItem><FaCheck/> Free icon Design</ListGroupItem>
+      <ListGroupItem><FaCheck/> All Formats (for print and digital use</ListGroupItem>
       <ListGroupItem><FaCheck/> 100% Ownership Rights</ListGroupItem>
+      <ListGroupItem><FaCheck/> Money Back Guarantee</ListGroupItem>
     </ListGroup>
+    </CustomScroll>
     <div className="call-discuss itemmain">
                       <span><FaPhone/> 0203 129 0853</span>
-                      <span><a href="#" title="Live Chat" target="_self" ><IoIosChatbubbles/>Chat Live</a></span>
+                      <span><Link to="#" title="Live Chat" target="_self" ><IoIosChatbubbles/>Chat Live</Link></span>
                       </div>
     <Button className="btn-white m-auto">Order Now</Button>
               </Card>
@@ -130,7 +142,7 @@ An Amazing Quality</h3>
     </ListGroup>
     <div className="call-discuss itemmain">
                       <span><FaPhone/> 0203 129 0853</span>
-                      <span><a href="#" title="Live Chat" target="_self" ><IoIosChatbubbles/>Chat Live</a></span>
+                      <span><Link to="#" title="Live Chat" target="_self" ><IoIosChatbubbles/>Chat Live</Link></span>
                       </div>
     <Button className="btn-white m-auto">Order Now</Button>
               </Card>
@@ -150,7 +162,7 @@ An Amazing Quality</h3>
     </ListGroup>
     <div className="call-discuss itemmain">
                       <span><FaPhone/> 0203 129 0853</span>
-                      <span><a href="#" title="Live Chat" target="_self" ><IoIosChatbubbles/>Chat Live</a></span>
+                      <span><Link to="#" title="Live Chat" target="_self" ><IoIosChatbubbles/>Chat Live</Link></span>
                       </div>
     <Button className="btn-white m-auto">Order Now</Button>
               </Card>
@@ -170,7 +182,7 @@ An Amazing Quality</h3>
     </ListGroup>
     <div className="call-discuss itemmain">
                       <span><FaPhone/> 0203 129 0853</span>
-                      <span><a href="#" title="Live Chat" target="_self" ><IoIosChatbubbles/>Chat Live</a></span>
+                      <span><Link to="#" title="Live Chat" target="_self" ><IoIosChatbubbles/>Chat Live</Link></span>
                       </div>
     <Button className="btn-white m-auto">Order Now</Button>
               </Card>

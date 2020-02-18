@@ -7,6 +7,8 @@ import ContentArea from '../components/ContentArea';
 import Pricing from '../components/Pricing';
 import Footer from '../components/Footer';
 import HomeFeatures from '../components/HomeFeatures';
+import CustomerClients from '../components/CustomerClients';
+import AwardReconized from '../components/AwardReconized';
 
 class Main extends Component {
     render() {
@@ -21,9 +23,9 @@ class Main extends Component {
             <HomeFeatures/>
             {/* <section>Main package</section>
             <section>Recent Project</section>
-            <section>Reason to choose us</section>
-            <section>Customer clients</section>
-            <section>Award Reconized</section> */}
+            <section>Reason to choose us</section>*/}
+            <CustomerClients /> 
+             <AwardReconized/>
             <Footer />
             </>
         )
