@@ -70,7 +70,7 @@ An Amazing Quality</h3>
     </ListGroup>
     </CustomScroll>
     <div className="call-discuss itemmain">
-                      <span><FaPhone/> 0203 129 0853</span>
+                      <span><FaPhone/> +92 324 2340 583</span>
                       <span><Link to="#" title="Live Chat" target="_self" ><IoIosChatbubbles/>Chat Live</Link></span>
                       </div>
     <Button className="btn-white m-auto">Order Now</Button>
@@ -93,7 +93,7 @@ An Amazing Quality</h3>
     </ListGroup>
     </CustomScroll>
     <div className="call-discuss itemmain">
-                      <span><FaPhone/> 0203 129 0853</span>
+                      <span><FaPhone/> +92 324 2340 583</span>
                       <span><Link to="#" title="Live Chat" target="_self" ><IoIosChatbubbles/>Chat Live</Link></span>
                       </div>
     <Button className="btn-white m-auto">Order Now</Button>
@@ -117,7 +117,7 @@ An Amazing Quality</h3>
     </ListGroup>
     </CustomScroll>
     <div className="call-discuss itemmain">
-                      <span><FaPhone/> 0203 129 0853</span>
+                      <span><FaPhone/> +92 324 2340 583</span>
                       <span><Link to="#" title="Live Chat" target="_self" ><IoIosChatbubbles/>Chat Live</Link></span>
                       </div>
     <Button className="btn-white m-auto">Order Now</Button>
@@ -132,16 +132,20 @@ An Amazing Quality</h3>
                 <CardTitle>BEGINNER'S</CardTitle>
                 <CardSubtitle>Limited Time Offer</CardSubtitle>
                 <CardText><span className="currency">$</span>17.99 <span className="less-price"><s>$9.99</s><span className="only">Only</span></span></CardText>
+                <CustomScroll heightRelativeToParent="100%">
                 <ListGroup>
-                <ListGroupItem><FaCheck/> 2 custom Logo Design Concepts</ListGroupItem>
-      <ListGroupItem><FaCheck/> Dedicated Designer</ListGroupItem>
-      <ListGroupItem><FaCheck/> Revisions</ListGroupItem>
-      <ListGroupItem><FaCheck/> 24-48 Hrs Tumaround Time</ListGroupItem>
-      <ListGroupItem><FaCheck/> Free Colour and Grayscale options</ListGroupItem>
+      <ListGroupItem><FaCheck/> 12 Custom Logo Design Concepts</ListGroupItem>
+      <ListGroupItem><FaCheck/> 4 Dedicated Designer</ListGroupItem>
+      <ListGroupItem><FaCheck/> Unlimited Revisions</ListGroupItem>
+      <ListGroupItem><FaCheck/> 48-72 Hrs Turnaround Time</ListGroupItem>
+      <ListGroupItem><FaCheck/> Free icon Design</ListGroupItem>
+      <ListGroupItem><FaCheck/> All Formats (for print and digital use</ListGroupItem>
       <ListGroupItem><FaCheck/> 100% Ownership Rights</ListGroupItem>
+      <ListGroupItem><FaCheck/> Money Back Guarantee</ListGroupItem>
     </ListGroup>
+    </CustomScroll>
     <div className="call-discuss itemmain">
-                      <span><FaPhone/> 0203 129 0853</span>
+                      <span><FaPhone/> +92 324 2340 583</span>
                       <span><Link to="#" title="Live Chat" target="_self" ><IoIosChatbubbles/>Chat Live</Link></span>
                       </div>
     <Button className="btn-white m-auto">Order Now</Button>
@@ -152,16 +156,20 @@ An Amazing Quality</h3>
                 <CardTitle>BEGINNER'S PLUS</CardTitle>
                 <CardSubtitle>Limited Time Offer</CardSubtitle>
                 <CardText><span className="currency">$</span>17.99 <span className="less-price"><s>$9.99</s><span className="only">Only</span></span></CardText>
+                <CustomScroll heightRelativeToParent="100%">
                 <ListGroup>
-                <ListGroupItem><FaCheck/> 2 custom Logo Design Concepts</ListGroupItem>
-      <ListGroupItem><FaCheck/> Dedicated Designer</ListGroupItem>
-      <ListGroupItem><FaCheck/> Revisions</ListGroupItem>
-      <ListGroupItem><FaCheck/> 24-48 Hrs Tumaround Time</ListGroupItem>
-      <ListGroupItem><FaCheck/> Free Colour and Grayscale options</ListGroupItem>
+      <ListGroupItem><FaCheck/> 12 Custom Logo Design Concepts</ListGroupItem>
+      <ListGroupItem><FaCheck/> 4 Dedicated Designer</ListGroupItem>
+      <ListGroupItem><FaCheck/> Unlimited Revisions</ListGroupItem>
+      <ListGroupItem><FaCheck/> 48-72 Hrs Turnaround Time</ListGroupItem>
+      <ListGroupItem><FaCheck/> Free icon Design</ListGroupItem>
+      <ListGroupItem><FaCheck/> All Formats (for print and digital use</ListGroupItem>
       <ListGroupItem><FaCheck/> 100% Ownership Rights</ListGroupItem>
+      <ListGroupItem><FaCheck/> Money Back Guarantee</ListGroupItem>
     </ListGroup>
+    </CustomScroll>
     <div className="call-discuss itemmain">
-                      <span><FaPhone/> 0203 129 0853</span>
+                      <span><FaPhone/> +92 324 2340 583</span>
                       <span><Link to="#" title="Live Chat" target="_self" ><IoIosChatbubbles/>Chat Live</Link></span>
                       </div>
     <Button className="btn-white m-auto">Order Now</Button>
@@ -172,16 +180,20 @@ An Amazing Quality</h3>
                 <CardTitle>SPECIAL BUSINESS</CardTitle>
                 <CardSubtitle>Limited Time Offer</CardSubtitle>
                 <CardText><span className="currency">$</span>17.99 <span className="less-price"><s>$9.99</s><span className="only">Only</span></span></CardText>
+                <CustomScroll heightRelativeToParent="100%">
                 <ListGroup>
-                <ListGroupItem><FaCheck/> 2 custom Logo Design Concepts</ListGroupItem>
-      <ListGroupItem><FaCheck/> Dedicated Designer</ListGroupItem>
-      <ListGroupItem><FaCheck/> Revisions</ListGroupItem>
-      <ListGroupItem><FaCheck/> 24-48 Hrs Tumaround Time</ListGroupItem>
-      <ListGroupItem><FaCheck/> Free Colour and Grayscale options</ListGroupItem>
+      <ListGroupItem><FaCheck/> 12 Custom Logo Design Concepts</ListGroupItem>
+      <ListGroupItem><FaCheck/> 4 Dedicated Designer</ListGroupItem>
+      <ListGroupItem><FaCheck/> Unlimited Revisions</ListGroupItem>
+      <ListGroupItem><FaCheck/> 48-72 Hrs Turnaround Time</ListGroupItem>
+      <ListGroupItem><FaCheck/> Free icon Design</ListGroupItem>
+      <ListGroupItem><FaCheck/> All Formats (for print and digital use</ListGroupItem>
       <ListGroupItem><FaCheck/> 100% Ownership Rights</ListGroupItem>
+      <ListGroupItem><FaCheck/> Money Back Guarantee</ListGroupItem>
     </ListGroup>
+    </CustomScroll>
     <div className="call-discuss itemmain">
-                      <span><FaPhone/> 0203 129 0853</span>
+                      <span><FaPhone/> +92 324 2340 583</span>
                       <span><Link to="#" title="Live Chat" target="_self" ><IoIosChatbubbles/>Chat Live</Link></span>
                       </div>
     <Button className="btn-white m-auto">Order Now</Button>

@@ -8,18 +8,18 @@ import {
   import SliderCaption from './SliderCaption';
   const items = [
     {
-      clientName: 'Client 1',
-      clientPosition: 'Position 1',
-      clientDesc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. '
+      clientName: 'mark morik',
+      clientPosition: 'ceo sparktech',
+      clientDesc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.  '
     },
     {
-        clientName: 'Client 2',
-        clientPosition: 'Position 2',
+      clientName: 'mark morik',
+      clientPosition: 'ceo sparktech',
         clientDesc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. '
     },
     {
-        clientName: 'Client 3',
-        clientPosition: 'Position 3',
+      clientName: 'mark morik',
+      clientPosition: 'ceo sparktech',
         clientDesc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. '
     }
   ];
@@ -53,11 +53,13 @@ export default function CustomerClients(props) {
             key={item.clientName}
           >
           <SliderCaption>
-        <h2>{item.clientName}</h2>
-        <h3>{item.clientPosition}</h3>
+       
       
         <div className="post__content" dangerouslySetInnerHTML={{__html: item.clientDesc}}></div>
-        
+        <div className="client-info">
+        <h5>{item.clientName}</h5>
+        <h6>{item.clientPosition}</h6>
+        </div>
         </SliderCaption>
           </CarouselItem>
         );
@@ -77,6 +79,7 @@ export default function CustomerClients(props) {
       activeIndex={activeIndex}
       next={next}
       previous={previous}
+      className="client-slide"
     >
       <CarouselIndicators items={items} activeIndex={activeIndex} onClickHandler={goToIndex} />
       {slides}

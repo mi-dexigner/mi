@@ -7,6 +7,7 @@ import ContentArea from '../components/ContentArea';
 import Pricing from '../components/Pricing';
 import Footer from '../components/Footer';
 import HomeFeatures from '../components/HomeFeatures';
+import ReasonChooseUs from '../components/ReasonChooseUs';
 import CustomerClients from '../components/CustomerClients';
 import AwardReconized from '../components/AwardReconized';
 
@@ -22,8 +23,8 @@ class Main extends Component {
             <Pricing/>
             <HomeFeatures/>
             {/* <section>Main package</section>
-            <section>Recent Project</section>
-            <section>Reason to choose us</section>*/}
+            <section>Recent Project</section>*/}
+           <ReasonChooseUs/>
             <CustomerClients /> 
              <AwardReconized/>
             <Footer />

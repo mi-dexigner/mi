@@ -188,7 +188,9 @@ li {
     border-radius   : 50%;
     position        : relative;
 }
-
+.left-area-action li:nth-child(2):hover{
+    background-color: #005473;
+}
 .left-area-action li:nth-child(2) a {
     display        : flex;
     justify-content: center;
@@ -206,6 +208,9 @@ li {
 
 }
 
+.left-area-action li:nth-child(2) a:hover{
+    text-decoration: none;
+}
 .left-area-action li+li+li::before {
     content         : '';
     width           : 1px;
@@ -610,6 +615,52 @@ li {
     line-height: 1.2;
     text-align : center;
 }
+.reason-choose{
+    padding-top   : 100px;
+    padding-bottom: 100px;
+}
+.reason-choose .heading{
+    margin-bottom: 80px;
+}
+.reason-choose .heading h3 {
+    font-size     : 50px;
+    font-family   : var(--font);
+    color         : var(--primary);
+    text-transform: uppercase;
+    line-height   : 1;
+    text-align    : center;
+    font-weight   : 900;
+}
+
+.reason-choose .heading h6 {
+    font-size  : 30px;
+    font-family: var(--font);
+    color      : #5a5a5a;
+    line-height: 1.2;
+    text-align : center;
+    font-weight: 300;
+
+}
+.reason-choose .media{
+    margin-bottom:40px;
+}
+.reason-choose .media h5{
+        font-size: 24px;
+        font-family: var(--font);
+        color: rgb(95, 95, 95);
+        font-style: italic;
+        font-weight: 900;
+        line-height: 1.2;
+        text-align: left;
+}
+.reason-choose .media p{
+        font-size: 16px;
+        font-family: var(--font);
+        color: rgb(95, 95, 95);
+        line-height: 1.675;
+       
+      
+}
 .customer-clients{
     padding-top   : 100px;
     padding-bottom: 100px;
@@ -633,6 +684,48 @@ li {
     text-align : center;
     font-weight: 300;
 
+}
+.client-slide .carousel-caption{
+    position: inherit;
+left: 0px;
+right: 0px;
+color: rgb(108, 108, 108);
+}
+.client-slide .carousel-caption .post__content{
+        font-size: 24px;
+        font-family   : var(--font);
+        color: rgb(108, 108, 108);
+        font-style: italic;
+        line-height: 1.25;
+        text-align: center;
+}
+.client-slide .carousel-caption .client-info h5{
+        font-size: 23px;
+        font-family   : var(--font);
+        color         : var(--primary);
+        text-transform: uppercase;
+        line-height: 1.2;
+        text-align: center;
+      font-weight: 700;
+      
+}
+.client-slide .carousel-caption .client-info h6{
+    font-size: 19px;
+    font-family   : var(--font);
+    color: rgb(108, 108, 108);
+    text-transform: uppercase;
+    line-height: 1.2;
+    text-align: center;
+}
+.client-slide .carousel-indicators li{
+width:11px;
+height:11px;
+border-radius: 100%;
+border:none;
+background-color: rgb(108, 108, 108);
+}
+.client-slide .carousel-indicators li.active{
+    background-color         : var(--primary); 
 }
 .award-reconized {
     padding-top   : 100px;
