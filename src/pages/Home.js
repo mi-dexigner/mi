@@ -5,11 +5,13 @@ import Slider from '../components/Slider';
 import CallToAction from '../components/CallToAction';
 import ContentArea from '../components/ContentArea';
 import Pricing from '../components/Pricing';
-import Footer from '../components/Footer';
 import HomeFeatures from '../components/HomeFeatures';
+import PricingComboBox from '../components/PricingComboBox';
+import Portfolio from '../components/Portfolio';
 import ReasonChooseUs from '../components/ReasonChooseUs';
 import CustomerClients from '../components/CustomerClients';
 import AwardReconized from '../components/AwardReconized';
+import Footer from '../components/Footer';
 
 class Main extends Component {
     render() {
@@ -22,8 +24,8 @@ class Main extends Component {
             <ContentArea/>
             <Pricing/>
             <HomeFeatures/>
-            {/* <section>Main package</section>
-            <section>Recent Project</section>*/}
+            <PricingComboBox/>
+            <Portfolio/>
            <ReasonChooseUs/>
             <CustomerClients /> 
              <AwardReconized/>

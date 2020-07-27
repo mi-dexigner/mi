@@ -1,7 +1,7 @@
 /* variables */
 :root {
     --primary  : rgb(0, 174, 239);
-    --secondary: #0A0B5B;
+    --secondary: #005473;
     --link     : #0A0B5B;
     --font     : 'Roboto', sans-serif;
 }
@@ -573,14 +573,15 @@ li {
 .call-discuss span svg {
     margin: 0 9px;
 }
-
+.recent-work,
 .features {
     background-color: #0e0e0e;
     padding-top     : 130px;
     padding-bottom  : 130px;
 }
 
-.features .heading h3 {
+.recent-work .heading h3,
+.features .heading h3{
     font-size     : 50px;
     font-family   : var(--font);
     color         : rgb(255, 255, 255);
@@ -590,6 +591,7 @@ li {
     font-weight   : 900;
 }
 
+.recent-work .heading h6,
 .features .heading h6 {
     font-size  : 30px;
     font-family: var(--font);
@@ -614,6 +616,17 @@ li {
     color      : rgb(255, 255, 255);
     line-height: 1.2;
     text-align : center;
+}
+.recent-work .single-portfolio{
+    overflow: hidden;
+    transition: all ease-in-out .5s;
+}
+.recent-work .single-portfolio img{
+   transform: scale(1.0);
+   transition: all ease-in-out .5s;
+}
+.recent-work .single-portfolio:hover img{
+    transform: scale(1.1);
 }
 .reason-choose{
     padding-top   : 100px;
@@ -661,6 +674,96 @@ li {
        
       
 }
+.pricing-combobox{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.pricing-combobox h3 {
+    font-size: 30px;
+    font-family: var(--font);
+    color: rgb(255, 255, 255);
+    line-height: 1.2;
+    text-align: center;
+    font-weight: 900;
+  }
+.pricing-combobox h4 {
+        font-size: 16px;
+        font-family: var(--font);
+        color: rgb(255, 255, 255);
+        line-height: 1.2;
+        text-align: center;
+        font-weight: 400;
+  }
+  
+.combobox {
+    width: 100%;
+    text-align: center;
+    background-color: var(--secondary);
+    padding: 75px 25px;
+    border-radius: 10px;
+}
+.combobox .combobox-cols {
+    display: grid;
+    grid-template-columns: 60% auto;
+    margin-top: 65px;
+    gap: 0 60px;
+}
+.combobox .combobox-cols .combo-list-wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+}
+.combobox .combobox-cols .combo-list h6 {
+    font-size: 22px;
+    font-family   : var(--font);
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    line-height: 1.2;
+    font-weight: 900;
+    text-align: left;
+    
+  }
+  .combobox .combobox-cols .combo-list .list-group{
+    border-radius: 0px;
+    text-align: left;
+  }
+    .combobox .combobox-cols .combo-list .list-group li {
+        background: none;
+        border: none;
+        padding: 0px;
+        border-bottom: 2px solid var(--primary);
+        color: #fff;
+        margin-bottom: 10px;
+padding-bottom: 8px;
+    }
+    .combobox .combobox-cols .combo-list .list-group li svg{
+        margin-right: 10px;
+    }
+    .combobox .combobox-cols .combo-price-wrapper {
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+    }
+    .combobox .combobox-cols .combo-price-wrapper h2{
+            font-size: 70px;
+            font-family   : var(--font);
+            color: rgb(255, 255, 255);
+            line-height: 1.2;
+            text-align: right;
+            font-weight: 900;
+            
+    }
+    .combobox .combobox-cols .combo-price-wrapper h6{
+            font-size: 30px;
+            font-family   : var(--font);
+            color: rgb(255, 255, 255);
+            line-height: 1.2;
+            text-align: right;
+            font-weight: 400;
+    }
+    .combobox .combobox-cols .combo-price-wrapper .call-discuss {
+        margin: 27px 0px 20px 0px;
+    }
 .customer-clients{
     padding-top   : 100px;
     padding-bottom: 100px;
